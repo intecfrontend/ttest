@@ -1,0 +1,72 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.mybody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  height: 350px;
+  width: 550px;
+  background-color: rgb(0, 0, 0);
+  -webkit-box-shadow: 5px 9px 12px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 5px 9px 12px 2px rgba(0, 0, 0, 0.23);
+}
+.nAndTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid 0.5px lime;
+  height: 50%;
+  width: 60%;
+}
+.iAndphone {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: solid 0.5px gold;
+  height: 50%;
+  width: auto;
+  padding-left: 90px;
+}
+
+.iAndphone div {
+  padding: 5px 10px;
+}
+#name {
+  font-size: 22px;
+  height: auto;
+  width: 25vw;
+  z-index: 100;
+  text-align: center;
+}
+#phoneicon {
+  margin-bottom: -5px;
+}
+#phone {
+  font-size: 15px;
+  margin-bottom: 0px;
+  transition: all 2s;
+}
+#phone:hover {
+  font-size: 25px;
+  margin: -5px 0px;
+}
+#phoneicon:hover {
+  background: red;
+}
+div {
+  color: seashell;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img {
+  height: 25px;
+  width: 25px;
+}
